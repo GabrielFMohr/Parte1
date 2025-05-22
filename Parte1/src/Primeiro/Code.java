@@ -10,5 +10,6 @@ public class Code {
 		float num=x.nextFloat();
 		
 		System.out.println(num%2==0 ? "Par" : "Ímpar");
+		x.close();
 	}
 }

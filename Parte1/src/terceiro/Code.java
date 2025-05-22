@@ -10,7 +10,6 @@ public class Code {
 		
 		while(n!=-1)
 		{
-			qn++;
 			System.out.printf("Insira a nota de número %d:",qn);
 			n=x.nextFloat();
 			if(n==-1)
@@ -19,8 +18,10 @@ public class Code {
 			}
 			else {
 				nt=n+nt;
+				qn++;
 			}
 		}
 		System.out.printf(qn>0 ? "A média da turma é "+(nt/qn):"Você não inseriu nenhuma nota");
+		x.close();
 	}
 }

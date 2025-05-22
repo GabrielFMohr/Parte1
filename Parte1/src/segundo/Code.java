@@ -22,5 +22,6 @@ public class Code {
 		}
 		
 		System.out.println(maior);
+		x.close();
 	}
 }

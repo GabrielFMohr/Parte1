@@ -9,8 +9,9 @@ public class Code {
 		System.out.print("Insira o número: ");
 		int num=x.nextInt();
 		
-		for(int i=2;i<=10;i++) {
+		for(int i=1;i<=10;i++) {
 			System.out.printf("%d x %d = %d\n",num,i,(num*i));
 		}
+		x.close();
 	}
 }
